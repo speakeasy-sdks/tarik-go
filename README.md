@@ -47,25 +47,25 @@ func main() {
 ## Available Resources and Operations
 
 
-### [Authentication](docs/authentication/README.md)
+### [Authentication](docs/sdks/authentication/README.md)
 
-* [LoginAPIV1TokenPost](docs/authentication/README.md#loginapiv1tokenpost) - Login
+* [LoginAPIV1TokenPost](docs/sdks/authentication/README.md#loginapiv1tokenpost) - Login
 
-### [Order](docs/order/README.md)
+### [Order](docs/sdks/order/README.md)
 
-* [OrderSchemaAPIV1OrdersSchemaGet](docs/order/README.md#orderschemaapiv1ordersschemaget) - Get JSON schema for order
-* [OrderValidatedAPIV1OrdersPost](docs/order/README.md#ordervalidatedapiv1orderspost) - Add new order
+* [OrderSchemaAPIV1OrdersSchemaGet](docs/sdks/order/README.md#orderschemaapiv1ordersschemaget) - Get JSON schema for order
+* [OrderValidatedAPIV1OrdersPost](docs/sdks/order/README.md#ordervalidatedapiv1orderspost) - Add new order
 
-### [OrderStatus](docs/orderstatus/README.md)
+### [OrderStatus](docs/sdks/orderstatus/README.md)
 
-* [StatusRequestValidatedAPIV1OrdersOrderIDStatusRequestPost](docs/orderstatus/README.md#statusrequestvalidatedapiv1ordersorderidstatusrequestpost) - Send order status request
-* [StatusSchemaAPIV1OrdersStatusSchemaGet](docs/orderstatus/README.md#statusschemaapiv1ordersstatusschemaget) - Get JSON schema for order status
-* [StatusValidatedAPIV1OrdersOrderIDStatusPost](docs/orderstatus/README.md#statusvalidatedapiv1ordersorderidstatuspost) - Set order status
+* [StatusRequestValidatedAPIV1OrdersOrderIDStatusRequestPost](docs/sdks/orderstatus/README.md#statusrequestvalidatedapiv1ordersorderidstatusrequestpost) - Send order status request
+* [StatusSchemaAPIV1OrdersStatusSchemaGet](docs/sdks/orderstatus/README.md#statusschemaapiv1ordersstatusschemaget) - Get JSON schema for order status
+* [StatusValidatedAPIV1OrdersOrderIDStatusPost](docs/sdks/orderstatus/README.md#statusvalidatedapiv1ordersorderidstatuspost) - Set order status
 
-### [OrderTicket](docs/orderticket/README.md)
+### [OrderTicket](docs/sdks/orderticket/README.md)
 
-* [NewTicketAPIV1TicketPost](docs/orderticket/README.md#newticketapiv1ticketpost) - Add new order ticket
-* [TicketStatusAPIV1TicketTicketIDCommentPost](docs/orderticket/README.md#ticketstatusapiv1ticketticketidcommentpost) - Add ticket comment
+* [NewTicketAPIV1TicketPost](docs/sdks/orderticket/README.md#newticketapiv1ticketpost) - Add new order ticket
+* [TicketStatusAPIV1TicketTicketIDCommentPost](docs/sdks/orderticket/README.md#ticketstatusapiv1ticketticketidcommentpost) - Add ticket comment
 <!-- End SDK Available Operations -->
 
 ### Maturity

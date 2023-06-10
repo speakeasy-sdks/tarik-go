@@ -2,9 +2,12 @@
 
 package shared
 
+type ResponseData struct {
+}
+
 // Response - Successful Response
 type Response struct {
-	Data    map[string]interface{} `json:"data,omitempty"`
-	Errors  []string               `json:"errors,omitempty"`
-	Success bool                   `json:"success"`
+	Data    *ResponseData `json:"data,omitempty"`
+	Errors  []string      `json:"errors,omitempty"`
+	Success bool          `json:"success"`
 }
